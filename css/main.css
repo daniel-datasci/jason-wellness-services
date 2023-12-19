@@ -2014,14 +2014,15 @@ ul#nav li.current a:after {
 
 
 @media only screen and (max-width: 1300px) {
-  #about .row.team .twelve.columns {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    text-align: justify;
-	margin-right: -60px;
-	align-items: center;
-  }
+  #about .twelve.columns{
+		flex: -3; /* Increase the flex value to make it wider */
+		margin: -160px;
+		margin: 18px -2px 0;
+		width: calc(100% + 40px); /* Increase width and adjust margin */
+		margin-top: -20px; /* Move the text column slightly up */
+		margin-bottom: 40px; /* Move the text column slightly up */
+		margin-left: -20px; /* Shift wider to the left side */
+	}
 
   #about h1 {
     margin-bottom: 10px;
@@ -2040,30 +2041,23 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width: 768px) {
   #about .row.team .twelve.columns {
-    width: 100%;
+    width: calc(100% + 20px);
+	margin: 18px -2px 0;
     padding: 0 20px;
-    box-sizing: border-box;
     text-align: justify;
-	margin-left: -30px;
-	margin-right: -20px;
+	margin-left: -10px;
   }
 
-  #about h1 {
-    line-height: 26px;
-    margin-bottom: 8px;
-    text-align: center;
-  }
-
-  #about hr {
-    margin: 8px auto;
-    width: 40px;
-  }
-
-  #about p {
-    line-height: 20px;
-  }
+  #portfolio3 .twelve.columns{
+	flex: -3; /* Increase the flex value to make it wider */
+	margin: -160px;
+	margin: 18px -2px 0;
+	width: calc(100% + 40px); /* Increase width and adjust margin */
+	margin-top: -20px; /* Move the text column slightly up */
+	margin-bottom: 40px; /* Move the text column slightly up */
+	margin-left: -20px; /* Shift wider to the left side */
 }
-
+}
 
 /* process
 -------------------------------------------------------------- */
