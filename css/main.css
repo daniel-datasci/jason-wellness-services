@@ -1480,6 +1480,7 @@ ul#nav li.current a:after {
 	#portfolio3 .row .twelve.columns h2 {
 		color: rgb(33, 33, 33);
 		font-size: 20px;
+		position: relative;
 	}
 	
 	  /* Change the p font color to black */
@@ -1487,6 +1488,7 @@ ul#nav li.current a:after {
 		color: rgb(51, 51, 51);
 		font-size: 13px;
 		text-align: justify;
+		position: relative;
 	}
 
 }
