@@ -1467,8 +1467,14 @@ ul#nav li.current a:after {
 
 @media screen and (max-width: 768px) {
 
-	#portfolio3 .row .twelve.columns {
-		position: relative;
+	#portfolio3 .twelve.columns{
+		flex: -3; /* Increase the flex value to make it wider */
+		margin: -160px;
+		margin: 18px -2px 0;
+		width: calc(100% + 40px); /* Increase width and adjust margin */
+		margin-top: -20px; /* Move the text column slightly up */
+		margin-bottom: 40px; /* Move the text column slightly up */
+		margin-left: -20px; /* Shift wider to the left side */
 	}
 
 	#portfolio3 .row .twelve.columns h2 {
