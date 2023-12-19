@@ -2041,22 +2041,12 @@ ul#nav li.current a:after {
 
 @media only screen and (max-width: 768px) {
   #about .row.team .twelve.columns {
-    width: calc(100% + 20px);
-	margin: 18px -2px 0;
+    width: calc(100% + 40px);
     padding: 0 20px;
     text-align: justify;
-	margin-left: -10px;
+	margin-left: -20px;
+	margin-right: -20px;
   }
-
-  #portfolio3 .twelve.columns{
-	flex: -3; /* Increase the flex value to make it wider */
-	margin: -160px;
-	margin: 18px -2px 0;
-	width: calc(100% + 40px); /* Increase width and adjust margin */
-	margin-top: -20px; /* Move the text column slightly up */
-	margin-bottom: 40px; /* Move the text column slightly up */
-	margin-left: -20px; /* Shift wider to the left side */
-}
 }
 
 /* process
