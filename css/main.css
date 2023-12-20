@@ -1000,7 +1000,7 @@ ul#nav li.current a:after {
 }
 
 #video-background {
-	filter: brightness(60%);
+	filter: brightness(50%);
     position: absolute;
     top: 0;
     left: 0;
