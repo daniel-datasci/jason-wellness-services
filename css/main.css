@@ -2549,9 +2549,9 @@ ul#nav li.current a:after {
 /* 12. =contact
 /* =================================================================== */
 #contact {
-	background: #ddf5fa;
+	background: #0f0f0f;
 	padding-top: 120px;
-	padding-bottom: 138px;
+	padding-bottom: 88px;
 	overflow: hidden;
 	border-bottom: 1px solid #15191d;  
 }
@@ -2560,14 +2560,14 @@ ul#nav li.current a:after {
 	font: 25px/30px "raleway-heavy", sans-serif;
 	text-transform: none;
 	letter-spacing: 2.5px;
-	color: #000000;
+	color: #ffffff;
 	margin-bottom: 30px;
 	margin-top: 18px;
 }
 
 #contact h3 {
 	font: 18px/36px "raleway-heavy", sans-serif;
-	color: #00827f;
+	color: #ffffff;
 	padding: 0;
 	margin-bottom: 6px;
 }
@@ -2823,7 +2823,7 @@ footer {
 	padding-top: 60px;
 	padding-bottom: 24px;
 	position: relative;
-	color: rgba(255, 255, 255, 0.15);
+	color: rgba(238, 238, 238, 0.15);
 }
 
 footer .content {
