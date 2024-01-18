@@ -1369,7 +1369,7 @@ ul#nav li.current a:after {
 }
 
 #portfolio3 {
-    background-color: #ddf5fa ; /* Change background color to white */
+    background-color: #ffffff ; /* Change background color to white */
     padding: 20px 0; /* Add padding to the top and bottom to make the section longer */
 }
 
@@ -1881,7 +1881,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #services {
-	background: #ddf5fa;
+	background: #ffffff;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
@@ -2006,7 +2006,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #about {
-	background: #ddf5fa;
+	background: #ffffff;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
